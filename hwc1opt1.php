@@ -3,7 +3,7 @@
 $starty1="1901";
 $endy1="3335";
 
-echo '<div><form action="?" method="GET" style="font-size:14px">請選擇<select name="y">';
+echo '<div align="center"><form action="?" method="GET" style="font-size:14px">請選擇<select name="y">';
 
 	for($i=$starty1;$i<=$endy1;$i++){
 		if($i==$year){
